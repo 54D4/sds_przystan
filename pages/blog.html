@@ -12,58 +12,71 @@
     <body>
         <header>
             <nav>
-                <a href="../index.html/">Strona Główna</a>
-                <a href="../index.html//#info">Informacje</a>
+                <a href="../">Strona Główna</a>
+                <a href="../#info">Informacje</a>
                 <a href="./blog.html">Aktualność</a>
-                <a href="../index.html/#contact">Kontakt</a>
+                <a href="../#contact">Kontakt</a>
             </nav>
             <div class="availability_bar">
                 <button onclick="increaseFontSize()">A+</button>
                 <button onclick="decreaseFontSize()">A-</button>
                 <button onclick="toggleTheme()">O</button>
             </div>
-            <img src="../assets/menu.png" alt="menu" class="menu" width="64">
+            <button id="toggle-button">
+                <img src="../assets/menu.png" alt="menu" class="menu"
+                    width="64">
+            </button>
         </header>
-        <main>
-            <h1>Nasze Ostatnie Akcje</h1>
-        </main>
-        <section>
-            <div class="center_grid">
-                <div class="grid">
-                    <a href="./description.html" class="post">
-                        <div class="post_img"
-                            style="background-image: url('../prototype_imgs/prototype_01.jpg');"></div>
-                        <h1>Jasełka</h1>
-                    </a>
-                    <a href="./description.html" class="post">
-                        <div class="post_img"
-                            style="background-image: url('../prototype_imgs/prototype_01.jpg');"></div>
-                        <h1>Jasełka</h1>
-                    </a>
-                    <a href="./description.html" class="post">
-                        <div class="post_img"
-                            style="background-image: url('../prototype_imgs/prototype_01.jpg');"></div>
-                        <h1>Jasełka</h1>
-                    </a>
-                    <a href="./description.html" class="post">
-                        <div class="post_img"
-                            style="background-image: url('../prototype_imgs/prototype_01.jpg');"></div>
-                        <h1>Jasełka</h1>
-                    </a>
-                    <a href="./description.html" class="post">
-                        <div class="post_img"
-                            style="background-image: url('../prototype_imgs/prototype_01.jpg');"></div>
-                        <h1>Jasełka</h1>
-                    </a>
-                    <a href="./description.html" class="post">
-                        <div class="post_img"
-                            style="background-image: url('../prototype_imgs/prototype_01.jpg');"></div>
-                        <h1>Jasełka</h1>
-                    </a>
-                </div>
+        <nav class="mobile_nav" id="navbar-links">
+            <a href="../index.html/">Strona Główna</a>
+            <a href="../index.html//#info">Informacje</a>
+            <a href="./blog.html">Aktualność</a>
+            <a href="../index.html/#contact">Kontakt</a>
+            <div class="availability_bar_mobile ">
+                <button onclick="increaseFontSize()">A+</button>
+                <button onclick="decreaseFontSize()">A-</button>
+                <button onclick="toggleTheme()">O</button>
             </div>
+            <main>
+                <h1>Nasze Ostatnie Akcje</h1>
+            </main>
+            <section>
+                <div class="center_grid">
+                    <div class="grid">
+                        <a href="./description.html" class="post">
+                            <div class="post_img"
+                                style="background-image: url('../prototype_imgs/prototype_01.jpg');"></div>
+                            <h1>Jasełka</h1>
+                        </a>
+                        <a href="./description.html" class="post">
+                            <div class="post_img"
+                                style="background-image: url('../prototype_imgs/prototype_01.jpg');"></div>
+                            <h1>Jasełka</h1>
+                        </a>
+                        <a href="./description.html" class="post">
+                            <div class="post_img"
+                                style="background-image: url('../prototype_imgs/prototype_01.jpg');"></div>
+                            <h1>Jasełka</h1>
+                        </a>
+                        <a href="./description.html" class="post">
+                            <div class="post_img"
+                                style="background-image: url('../prototype_imgs/prototype_01.jpg');"></div>
+                            <h1>Jasełka</h1>
+                        </a>
+                        <a href="./description.html" class="post">
+                            <div class="post_img"
+                                style="background-image: url('../prototype_imgs/prototype_01.jpg');"></div>
+                            <h1>Jasełka</h1>
+                        </a>
+                        <a href="./description.html" class="post">
+                            <div class="post_img"
+                                style="background-image: url('../prototype_imgs/prototype_01.jpg');"></div>
+                            <h1>Jasełka</h1>
+                        </a>
+                    </div>
+                </div>
 
-        </section>
+            </section>
 
-    </body>
-</html>
+        </body>
+    </html>
