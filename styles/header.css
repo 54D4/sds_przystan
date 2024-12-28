@@ -1,0 +1,127 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 90;
+    box-shadow: 8px 8px 22px -8px rgba(0, 0, 0, 0.5);
+}
+
+.home_img {
+    width: 60%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    height: 500px;
+    background-image: url('/landing_img.jpg');
+    background-position: center;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.3s;
+    margin: 0 15px 0 15px;
+    font-size: 1.2rem;
+    color: black;
+}
+
+
+.availability_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: static;
+    right: 0;
+
+}
+
+.availability_bar button {
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 64px;
+    height: 64px;
+    font-weight: 700;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4;
+}
+
+#toggle-button {
+    display: none;
+}
+
+.availability_bar button:hover {
+    scale: 1.2;
+}
+
+
+
+button {
+    background: none;
+    border: none;
+}
+
+.mobile_nav button {
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 64px;
+    height: 64px;
+    font-weight: 700;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4;
+}
+
+.mobile_nav {
+    display: none;
+    flex-direction: column;
+    background: white;
+    box-shadow: 8px 20px 22px -8px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    position: fixed;
+    top: 103px;
+    right: 0;
+    z-index: 100;
+    text-decoration: none;
+    border-radius: 0 0 20px 20px;
+}
+
+.mobile_nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    header a {
+        display: none;
+    }
+
+    .availability_bar {
+        display: none;
+    }
+
+
+
+    .active {
+        display: flex;
+    }
+
+    #toggle-button {
+        display: inline;
+    }
+}

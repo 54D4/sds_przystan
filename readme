@@ -1,0 +1,33 @@
+# Strona internetowa Środowiskowego Domu Samopomocy "Przystań"
+
+## Opis projektu
+Strona internetowa Środowiskowego Domu Samopomocy "Przystań" została zaprojektowana, aby wspierać działalność placówki i promować jej inicjatywy. Jest to centralne miejsce, gdzie zarówno uczestnicy, jak i osoby zainteresowane działalnością ośrodka mogą znaleźć aktualne informacje na temat jego oferty, wydarzeń i celów.
+
+Główna sekcja strony to **blog**, na którym regularnie publikowane są wpisy dotyczące wydarzeń, takich jak imprezy tematyczne (np. Halloween, Mikołajki), gry integracyjne czy spotkania okolicznościowe. Blog pełni rolę kroniki, dokumentując życie ŚDS "Przystań" i angażując społeczność w działania placówki.
+
+Dodatkowo, strona umożliwia odwiedzającym:
+- Uzyskanie informacji o działalności ŚDS.
+- Zapoznanie się z ofertą placówki i dostępnych zajęć.
+- Śledzenie nadchodzących wydarzeń i przeglądanie galerii zdjęć.
+
+## Funkcjonalności
+Strona internetowa oferuje szereg funkcjonalności, które ułatwiają korzystanie z niej i zapewniają przyjazne doświadczenie użytkownika:
+- **Blog**: Dynamiczna sekcja z wpisami na temat wydarzeń, aktualności i osiągnięć ŚDS.
+- **Responsywność**: Strona została zaprojektowana w pełni responsywnie, co oznacza, że działa płynnie zarówno na komputerach, tabletach, jak i smartfonach.
+- **Intuicyjna nawigacja**: Proste i czytelne menu ułatwia dostęp do kluczowych informacji.
+- **Dynamiczne elementy**: Rozwijane menu, animacje i interaktywne komponenty zwiększają atrakcyjność strony.
+- **Wsparcie SEO**: Struktura i kod strony zostały zoptymalizowane pod kątem wyszukiwarek internetowych.
+
+## Technologie
+Strona została zbudowana z użyciem następujących technologii:
+- **HTML**: Odpowiada za strukturę i organizację treści strony.
+- **CSS**: Służy do stylizacji strony, tworzenia estetycznego układu i animacji.
+- **JavaScript**: Dodaje funkcjonalność interaktywnych elementów, takich jak rozwijane menu czy dynamiczne ładowanie treści.
+
+Dzięki wykorzystaniu powyższych technologii strona jest lekka, szybka i łatwa w utrzymaniu.
+
+## Instrukcja uruchomienia
+Aby uruchomić projekt lokalnie, wykonaj poniższe kroki:
+1. Sklonuj repozytorium na swój komputer:
+   ```bash
+   git clone https://github.com/uzytkownik/sds-przystan.git

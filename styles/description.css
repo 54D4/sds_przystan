@@ -1,0 +1,97 @@
+* {
+    overflow-x: hidden;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+section div {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.title {
+    display: flex;
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+    box-shadow: 7px 7px 25px -10px rgba(0, 0, 0, 0.5);
+    background: #4E62B4;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    margin-bottom: 2rem;
+}
+
+.description {
+    font-size: 1.5rem;
+}
+
+.mian_img img {
+    border-radius: 24px;
+    width: 700px;
+    box-shadow: -30px 30px 0 white;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.4rem;
+    position: fixed;
+    bottom: 0;
+    background: none;
+    height: auto;
+    background: #4E62B4;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 1500px) {
+    section {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mian_img img {
+        width: 80%;
+        box-shadow: none;
+        margin: 40px;
+
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 1.3rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+}

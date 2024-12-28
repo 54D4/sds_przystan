@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(61, 166, 180);
+    padding: 1.5rem;
+}
+
+footer div {
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer div a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+footer div a img {
+    margin: 20px;
+}
+
+span {
+    align-self: end;
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

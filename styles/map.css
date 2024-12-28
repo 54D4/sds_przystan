@@ -1,0 +1,89 @@
+.map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.map h1 {
+    font-size: 4rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map div {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.map div div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.map div div button {
+    font-size: 1.5rem;
+    padding: 7px 15px 7px 15px;
+    background: #F9FF56;
+    font-weight: 600;
+    border-radius: 10px;
+    float: right;
+    margin: 1rem;
+    border: none;
+    transition: all 0.3s;
+    box-shadow: 7px 7px 25px -10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    align-self: flex-end;
+
+}
+
+.map h1 img {
+    margin: 20px;
+}
+
+.map div div button a {
+    text-decoration: none;
+    color: black;
+}
+
+.mapa {
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 25px -10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1000px) {
+    .map div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map div div {
+        width: 80%;
+    }
+
+    .map div p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .map h1 {
+        font-size: 2rem;
+    }
+
+    .map h1 img {
+        width: 48px;
+    }
+
+    .mapa {
+        width: 80%;
+    }
+}
