@@ -12,7 +12,7 @@
 .service .landing_img {
     height: 300px;
     width: 80%;
-    background-image: url('/assets/landing_img.jpg');
+    background-image: url('../assets/landing_img.jpg');
     background-position: center;
     border-radius: 15px;
     box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 0.5);

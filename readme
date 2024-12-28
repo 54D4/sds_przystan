@@ -26,8 +26,4 @@ Strona została zbudowana z użyciem następujących technologii:
 
 Dzięki wykorzystaniu powyższych technologii strona jest lekka, szybka i łatwa w utrzymaniu.
 
-## Instrukcja uruchomienia
-Aby uruchomić projekt lokalnie, wykonaj poniższe kroki:
-1. Sklonuj repozytorium na swój komputer:
-   ```bash
-   git clone https://github.com/uzytkownik/sds-przystan.git
+ 

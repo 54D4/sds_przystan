@@ -17,7 +17,7 @@ header {
     right: 0;
     z-index: -1;
     height: 500px;
-    background-image: url('/landing_img.jpg');
+    background-image: url('../landing_img.jpg');
     background-position: center;
 }
 

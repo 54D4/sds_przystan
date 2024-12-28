@@ -20,7 +20,7 @@ main {
     right: 0;
     z-index: -1;
     height: 500px;
-    background-image: url('/assets/landing_img.jpg');
+    background-image: url('../assets/landing_img.jpg');
     background-position: center;
 }
 
@@ -41,7 +41,7 @@ main {
     right: 0;
     z-index: -1;
     height: 350px;
-    background-image: url('/assets/landing_img.jpg');
+    background-image: url('../assets/landing_img.jpg');
     background-position: center;
     display: none;
     display: flex;
