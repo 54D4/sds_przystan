@@ -16,8 +16,3 @@ function decreaseFontSize() {
 function toggleTheme() {
     document.body.classList.toggle('dark-theme');
 }
-
-document.querySelectorAll("#toggle-button").addEventListener("click", () => {
-    const navbarLinks = document.getElementById("navbar-links");
-    navbarLinks.classList.toggle("active");
-});
