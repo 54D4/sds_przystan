@@ -17,7 +17,7 @@ function toggleTheme() {
     document.body.classList.toggle('dark-theme');
 }
 
-document.getElementById("toggle-button").addEventListener("click", () => {
+document.querySelectorAll("#toggle-button").addEventListener("click", () => {
     const navbarLinks = document.getElementById("navbar-links");
     navbarLinks.classList.toggle("active");
 });
