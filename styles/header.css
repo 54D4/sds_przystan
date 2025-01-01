@@ -115,8 +115,6 @@ button {
         display: none;
     }
 
-
-
     .active {
         display: flex;
     }
